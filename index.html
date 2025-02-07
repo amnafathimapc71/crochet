@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handmade Crochet Haven</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Crochet Haven</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Handcrafted Crochet Treasures</h1>
+            <p>Unique, lovingly created crochet items for your home and wardrobe</p>
+        </section>
+
+        <section id="products">
+            <h2>Our Collection</h2>
+            <div id="product-grid" class="product-grid">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <section id="cart">
+            <h2>Shopping Cart</h2>
+            <div id="cart-items"></div>
+            <div id="cart-total">Total: $0.00</div>
+            <button id="checkout-btn">Checkout</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Crochet Haven. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
